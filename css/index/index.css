@@ -1,0 +1,55 @@
+body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background: url("../../images/jbTa4AS57.png"); }
+.clear {clear: both;}
+.portal-shadow {-moz-box-shadow:0px 0px 6px rgba(0,0,0,0.35); -webkit-box-shadow:0px 0px 6px rgba(0,0,0,0.35); box-shadow:0px 0px 6px rgba(0,0,0,0.35);}
+/*头部*/
+#portal-top {width: 100%;min-width: 990px;background-color: #3A3A3A;height: 30px;}
+#portal-top .portal-top-main{width: 990px;height: 30px;margin: 0 auto;}
+#portal-top .portal-top-main .portal-left{float: left;}
+#portal-top .portal-top-main .portal-left-a{background: url("../../images/index/3PMS4q5ftd.png") left center no-repeat;color:#B0B0B0;line-height: 27px;padding: 0 0 2px 17px;text-decoration:none;}
+#portal-top .portal-top-main .portal-left-a:hover {color:#FFF;}
+#portal-top .portal-top-main .portal-right {float: right;text-align: right;color: #FFF;}
+#portal-top .portal-top-main .portal-right span{color:#B0B0B0;}
+#portal-top .portal-top-main .portal-right a{color:#B0B0B0;line-height: 27px;text-decoration:none;}
+#portal-top .portal-top-main .portal-right a:hover{color:#FFF;}
+/*导航*/
+#portal-title{width: 100%;height: 152px;min-width: 990px;background: #95040b url("../../images/index/1WiOD8X8dZ.png") center top no-repeat;}
+#portal-title .portal-title-main {width: 990px;margin: 0 auto;height: 100%;}
+#portal-title .portal-title-main .logo{padding-top: 41px;float: left;}
+#portal-title .portal-title-main .logo .title{font-size: 22px;font-weight: 500;padding: 7px 10px 0 9px;color: #FFF;vertical-align: text-top;margin-left: 5px;border-left: 2px solid #FFF;}
+#portal-title .portal-tab .nav-tabs {border: none;width: 545px;float: right;}
+#portal-title .portal-tab .nav-tabs li{width: 109px;height: 100px;background-color: transparent;padding: 22px 23px;}
+#portal-title .portal-tab .nav-tabs li a{border-radius:0;text-align: center;color: #ffcccc;margin: 0;padding: 0;border: none;width: 64px;height: 56px;font-size: 16px;line-height: 88px;}
+#portal-title .portal-tab .nav-tabs li a:hover {color:#FFF;background-color: transparent;}
+#portal-title .portal-tab .nav-tabs li.active {background-color:#8A040A;}
+#portal-title .portal-tab .nav-tabs li.active a{color:#FFF;cursor: pointer;}
+
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-1"] {background: url("../../images/index/3Uddh3WigX.png") 16px 0px no-repeat; }
+#portal-title .portal-tab .nav-tabs li.active a[href="#portal-nav-1"] {background: url("../../images/index/3Uddh3WigX.png") 16px -60px no-repeat; }
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-1"]:hover {background: url("../../images/index/3Uddh3WigX.png") 16px -60px no-repeat; }
+
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-2"] {background: url("../../images/index/3Uddh3WigX.png") -50px 4px no-repeat; }
+#portal-title .portal-tab .nav-tabs li.active a[href="#portal-nav-2"] {background: url("../../images/index/3Uddh3WigX.png") -50px -60px no-repeat; }
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-2"]:hover {background: url("../../images/index/3Uddh3WigX.png") -50px -60px no-repeat; }
+
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-3"] {background: url("../../images/index/3Uddh3WigX.png") -124px 0px no-repeat; }
+#portal-title .portal-tab .nav-tabs li.active a[href="#portal-nav-3"] {background: url("../../images/index/3Uddh3WigX.png") -124px -60px no-repeat; }
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-3"]:hover {background: url("../../images/index/3Uddh3WigX.png") -124px -60px no-repeat; }
+
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-4"] {background: url("../../images/index/3Uddh3WigX.png") -344px 0px no-repeat; }
+#portal-title .portal-tab .nav-tabs li.active a[href="#portal-nav-4"] {background: url("../../images/index/3Uddh3WigX.png") -344px -60px no-repeat; }
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-4"]:hover {background: url("../../images/index/3Uddh3WigX.png") -344px -60px no-repeat; }
+
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-5"] {background: url("../../images/index/3Uddh3WigX.png") -264px 0px no-repeat; }
+#portal-title .portal-tab .nav-tabs li.active a[href="#portal-nav-5"] {background: url("../../images/index/3Uddh3WigX.png") -264px -60px no-repeat; }
+#portal-title .portal-tab .nav-tabs li a[href="#portal-nav-5"]:hover {background: url("../../images/index/3Uddh3WigX.png") -264px -60px no-repeat; }
+
+/*内容*/
+
+#portal-content {width: 990px;background-color: #F2F2F2;margin: -52px auto 0px;min-height: 360px;}
+
+/*footer*/
+#portal-footer {height: 100px;}
+#portal-footer .portal-footer-main{height: 100%;border-top: 1px solid #CCC;background-color: #F5F5F5;text-align: center;padding-top: 15px;}
+#portal-footer .footer-copyright{padding-top: 10px;}
+#portal-footer a{text-decoration: none;}
+#portal-footer em{font-style:normal;color: #808080;}
