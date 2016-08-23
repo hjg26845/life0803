@@ -2,6 +2,11 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 .clear {clear: both;}
 .portal-shadow {-moz-box-shadow:0px 0px 6px rgba(0,0,0,0.35); -webkit-box-shadow:0px 0px 6px rgba(0,0,0,0.35); box-shadow:0px 0px 6px rgba(0,0,0,0.35);}
 .font-center{text-align: center;}
+.fn-mb5{margin-bottom: 5px;}
+.fn-mt30{margin-top: 30px;}
+
+.ft-14{font-size: 14px;}
+
 
 #home-main {padding: 30px 30px 0;}
 #home-main .home-left{float:left;width: 656px; }
@@ -12,6 +17,10 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 
 #card-main .card-left {float: left;width: 820px;background-color: #FFF;}
 #card-main .card-left .noCard{padding: 30px 10px 30px 20px;}
+#card-main .card-left .noCard .wel-title{font-size: 26px;color:#996600;font-weight: bold;}
+#card-main .card-left .noCard .ft-weaken{color: #808080;}
+#card-main .card-left .noCard .card-btn{background-color: #B31600;border-radius: 0;border: 1px solid #6F0900;padding: 4px 12px;}
+#card-main .card-left .noCard .card-btn:hover{background-color: #A01200;}
 #card-main .card-right {float: right;width: 170px;border-left: 1px solid #DDDDDD;background-color: #F2F2F2;}
 #card-main .card-right .list-group{margin: 24px 0 0;padding: 0;}
 #card-main .card-right .list-group .list-group-item{margin: 0;border: none;border-radius:0;color:#4D4D4D;font-size: 14px;background-color: inherit;cursor: pointer;}
