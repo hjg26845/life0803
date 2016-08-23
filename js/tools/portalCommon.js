@@ -5,7 +5,6 @@ $(function(){
     });
     $.get("../../html/index.html", function(data){
         $("#body").append(data);
-        alert(data);
     });
     $.ajaxSetup({
         async: true

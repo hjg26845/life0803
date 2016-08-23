@@ -1,12 +1,12 @@
+
 body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F2F2F2;}
 .clear {clear: both;}
 .portal-shadow {-moz-box-shadow:0px 0px 6px rgba(0,0,0,0.35); -webkit-box-shadow:0px 0px 6px rgba(0,0,0,0.35); box-shadow:0px 0px 6px rgba(0,0,0,0.35);}
 .font-center{text-align: center;}
 .fn-mb5{margin-bottom: 5px;}
 .fn-mt30{margin-top: 30px;}
-
+.fn-mt10{margin-top: 10px;}
 .ft-14{font-size: 14px;}
-
 
 #home-main {padding: 30px 30px 0;}
 #home-main .home-left{float:left;width: 656px; }
@@ -15,14 +15,33 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 #home-main .home-left .last {margin-left: 14px;}
 #home-main .home-right{float:right;width: 334px; }
 
-#card-main .card-left {float: left;width: 820px;background-color: #FFF;}
+/*card 通用*/
+#card-main h3{padding: 25px 30px 20px;border-bottom: 0;line-height: 16px;height: auto;font-family: '微软雅黑';font-size: 16px;font-weight: 800;margin: 0;}
+#card-main {background-color: #FFF;overflow: hidden;}
+#card-main .card-left {float: left;width: 820px;}
 #card-main .card-left .noCard{padding: 30px 10px 30px 20px;}
 #card-main .card-left .noCard .wel-title{font-size: 26px;color:#996600;font-weight: bold;}
 #card-main .card-left .noCard .ft-weaken{color: #808080;}
 #card-main .card-left .noCard .card-btn{background-color: #B31600;border-radius: 0;border: 1px solid #6F0900;padding: 4px 12px;}
 #card-main .card-left .noCard .card-btn:hover{background-color: #A01200;}
-#card-main .card-right {float: right;width: 170px;border-left: 1px solid #DDDDDD;background-color: #F2F2F2;}
+#card-main .card-right {float: right;width: 170px;border-left: 1px solid #DDDDDD;background-color: #F2F2F2;margin-bottom: -99999px;padding-bottom: 99999px;}
 #card-main .card-right .list-group{margin: 24px 0 0;padding: 0;}
 #card-main .card-right .list-group .list-group-item{margin: 0;border: none;border-radius:0;color:#4D4D4D;font-size: 14px;background-color: inherit;cursor: pointer;}
 #card-main .card-right .list-group .list-group-item.active{background-color: #D9D9D9;border-right: 6px solid #696969;font-weight: bold;}
 #card-main .card-right .list-group .list-group-item:hover{font-weight: bold;}
+
+#card-main .card-left .card-config{padding: 30px 0;}
+#card-main .card-left .card-config .config-title{height: 43px; border-bottom: 1px solid #F4F4F4;font-size: 14px;font-weight: bold;padding-left: 30px;color: #666;margin-bottom: 20px;}
+#card-main .card-left .card-config .config-content{width: 100%;padding-left: 30px; padding-right: 30px;}
+#card-main .card-left .card-config .config-content .config-content-left{float: left;width: 257px;padding-left: 56px;}
+#card-main .card-left .card-config .config-content .phone{width: 257px;background: url("../../images/card/1b044jqszN.png") no-repeat;height: 543px;}
+#card-main .card-left .card-config .config-content .config-content-right{float: right;width: 400px;height: 3000px;}
+#card-main .config-box{border-radius:8px;-webkit-box-shadow:0 0 3px rgba(0,0,0,.2);-moz-box-shadow:0 0 3px rgba(0,0,0,.2);box-shadow:0 0 3px rgba(0,0,0,.2);border:1px solid #DEDEDE;margin-bottom:15px;}
+#card-main .mi-form-item{padding-left: 30px;padding-right: 30px;margin: 0;}
+#card-main .mi-form-item .mi-label{width: 100%;font-weight: 400;font-size: 14px;padding-bottom: 15px;margin-bottom: 0;}
+#card-main .mi-form-item .mi-input{width: 100%;border: 1px solid #CCC;color: #4d4d4d;padding: 6px 4px;vertical-align: top;}
+#card-main .mi-form-item .mi-form-explain{width: 100%;color: #F33;height: 27px;padding-top: 3px;font-size: 12px;}
+#card-main .mi-form-item .background-set .radio-inline.fn-mt10 + .radio-inline.fn-mt10{margin-top: 10px;}
+#card-main .mi-form-item .background-set span{display: inline-block;width: 28px;height: 28px;}
+
+
