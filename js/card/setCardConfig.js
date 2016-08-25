@@ -5,24 +5,10 @@ $(function(){
     $("#card-main").css("min-height",$("#card-main").parent().height());
     $("#card-main").show();
     $(window).scroll(function(){
-        var dom_ = $("#card-main .phone");
-        if($(window).scrollTop() >= 223){
-            if(document.body.scrollHeight - dom_.position().top - $(dom_).height() > $("#portal-footer").height()) {
-                $(dom_).css({
-                    "position": "absolute",
-                    "top": $(window).scrollTop()
-                });
-            }else{
-                var h_ = document.body.scrollHeight - $(dom_).height() - $("#portal-footer").height();
-                $(dom_).css({
-                    "position": "absolute",
-                    "top": h_ - $(window).scrollTop() < 0 ? h_ : $(window).scrollTop()
-                });
-            }
-        }else{
-            $(dom_).css({
-                "position":"static"
-            });
-        }
+        var h_ = document.body.scrollHeight - $("#card-main .phone").height() - $("#portal-footer").height();
+        $("#card-main .phone").css({
+            "position": $(window).scrollTop() >= $("#card-main .config-content").offset().top ? "absolute":"static",
+            "top": h_ - $(window).scrollTop() < 0 ? h_ : $(window).scrollTop()
+        });
     });
 });

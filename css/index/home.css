@@ -4,9 +4,30 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 .portal-shadow {-moz-box-shadow:0px 0px 6px rgba(0,0,0,0.35); -webkit-box-shadow:0px 0px 6px rgba(0,0,0,0.35); box-shadow:0px 0px 6px rgba(0,0,0,0.35);}
 .font-center{text-align: center;}
 .fn-mb5{margin-bottom: 5px;}
-.fn-mt30{margin-top: 30px;}
+.fn-mb10{margin-bottom: 10px;}
 .fn-mt10{margin-top: 10px;}
+.fn-mt15{margin-top: 15px;}
+.fn-mt20{margin-top: 20px;}
+.fn-mt30{margin-top: 30px;}
+.ft-12{font-size: 12px;}
 .ft-14{font-size: 14px;}
+.common-btn {border-radius: 0;border: 1px solid;padding: 0 20px;font-size: 14px;font-weight: 400;text-align: center;white-space: nowrap;vertical-align: middle;cursor: pointer;color: inherit;min-width: 34px;height: 30px;line-height: 28px;}
+.small-btn {font-size: 12px; height: 26px;line-height: 24px;}
+.write-btn {border-color: #d6d6d6;color: #4E4E4E;}
+.red-btn {background-color: #B31600;border-color: #6F0900;color:#FFF;}
+.red-btn:hover{background-color: #A01200;}
+
+
+.mi-form-item{padding-left: 30px;padding-right: 30px;}
+.mi-form-item .mi-label{width: 100%;font-weight: 400;padding-bottom: 15px;margin-bottom: 0;}
+.mi-form-item .mi-input{width: 100%;border: 1px solid #CCC;color: #4d4d4d;padding: 6px 4px;vertical-align: top;}
+.mi-form-item .mi-form-explain{width: 100%;color: #F33;height: 27px;padding-top: 3px;font-size: 12px;}
+.mi-form-item .background-set .radio-inline{margin-left: 10px;}
+.mi-form-item .background-set .radio-inline.fn-mt10{margin-top: 10px;}
+.mi-form-item .background-set span{display: inline-block;width: 28px;height: 28px;}
+.mi-form-item .mi-textarea {overflow: auto;resize: none;}
+
+
 
 #home-main {padding: 30px 30px 0;}
 #home-main .home-left{float:left;width: 656px; }
@@ -35,13 +56,10 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 #card-main .card-left .card-config .config-content{width: 100%;padding-left: 30px; padding-right: 30px;}
 #card-main .card-left .card-config .config-content .config-content-left{float: left;width: 257px;padding-left: 56px;}
 #card-main .card-left .card-config .config-content .phone{width: 257px;background: url("../../images/card/1b044jqszN.png") no-repeat;height: 543px;}
-#card-main .card-left .card-config .config-content .config-content-right{float: right;width: 400px;height: 3000px;}
+#card-main .card-left .card-config .config-content .config-content-right{float: right;width: 400px;}
 #card-main .config-box{border-radius:8px;-webkit-box-shadow:0 0 3px rgba(0,0,0,.2);-moz-box-shadow:0 0 3px rgba(0,0,0,.2);box-shadow:0 0 3px rgba(0,0,0,.2);border:1px solid #DEDEDE;margin-bottom:15px;}
-#card-main .mi-form-item{padding-left: 30px;padding-right: 30px;margin: 0;}
-#card-main .mi-form-item .mi-label{width: 100%;font-weight: 400;font-size: 14px;padding-bottom: 15px;margin-bottom: 0;}
-#card-main .mi-form-item .mi-input{width: 100%;border: 1px solid #CCC;color: #4d4d4d;padding: 6px 4px;vertical-align: top;}
-#card-main .mi-form-item .mi-form-explain{width: 100%;color: #F33;height: 27px;padding-top: 3px;font-size: 12px;}
-#card-main .mi-form-item .background-set .radio-inline.fn-mt10 + .radio-inline.fn-mt10{margin-top: 10px;}
-#card-main .mi-form-item .background-set span{display: inline-block;width: 28px;height: 28px;}
-
-
+#card-main .mi-form-item .mi-textarea {width: 100%;}
+#card-main .mi-form-item .right-dom {float: right;}
+#card-main .mi-form-item hr {margin-top: 27px;border-color: #CCC;}
+#card-main .mi-form-item .radio {margin-top: 20px;}
+#card-main .config-write-off .write-off-inline {}

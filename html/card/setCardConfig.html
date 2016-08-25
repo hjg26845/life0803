@@ -27,63 +27,147 @@
                     <div class="config-box config-info">
                         <h3 class="p-title-area">卡片信息</h3>
                         <div class="mi-form-item">
-                            <label class="mi-label">会员卡名称</label>
-                            <input data-explain="" data-widget-cid="widget-24" id="cardName" value="" data-default="会员卡名称" class="mi-input" placeholder="建议填写品牌名，最多10个汉字。" maxlength="20" type="text">
+                            <label class="mi-label ft-14">会员卡名称</label>
+                            <input id="cardName" value="" data-default="会员卡名称" class="mi-input" placeholder="建议填写品牌名，最多10个汉字。" maxlength="20" type="text">
                             <div class="mi-form-explain"></div>
                         </div>
                         <div class="mi-form-item">
-                            <label class="mi-label">背景色</label>
+                            <label class="mi-label ft-14">背景色</label>
                             <div class="background-set">
                                 <label class="radio-inline">
                                     <input type="radio" name="background-set-options" value="#ef4b40">
                                     <span style="background-color:#ef4b40;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="option2">
+                                    <input type="radio" name="background-set-options" value="#fb6650">
                                     <span style="background-color:#fb6650;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="option3">
+                                    <input type="radio" name="background-set-options" value="#e84d94">
                                     <span style="background-color:#e84d94;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="option3">
+                                    <input type="radio" name="background-set-options" value="#9042e8">
                                     <span style="background-color:#9042e8;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="#ef4b40">
+                                    <input type="radio" name="background-set-options" value="#19a8cb">
                                     <span style="background-color:#19a8cb;">&nbsp;</span>
                                 </label>
 
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="#ef4b40">
+                                    <input type="radio" name="background-set-options" value="#3983da">
                                     <span style="background-color:#3983da;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="option2">
+                                    <input type="radio" name="background-set-options" value="#24bf66">
                                     <span style="background-color:#24bf66;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="option3">
+                                    <input type="radio" name="background-set-options" value="#72b414">
                                     <span style="background-color:#72b414;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="option3">
+                                    <input type="radio" name="background-set-options" value="#f7a11d">
                                     <span style="background-color:#f7a11d;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="#ef4b40">
+                                    <input type="radio" name="background-set-options" value="#3e4349">
                                     <span style="background-color:#3e4349;">&nbsp;</span>
                                 </label>
                             </div>
                             <div class="mi-form-explain"></div>
                         </div>
+                        <div class="mi-form-item">
+                            <label class="mi-label ft-14">背景图片</label>
+                            <input type="button" class="common-btn write-btn fn-mb10" value="上传图片"/>
+                            <div class="mi-form-text ft-12">
+                                <span style="color: #0199FE;" class="glyphicon glyphicon-info-sign ft-14" aria-hidden="true"></span> 会员卡上会显示部分必要信息(如左图)，请注意。
+                                <div class="mi-form-explain"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="config-box config-get">
                         <h3 class="p-title-area">领卡设置</h3>
+                        <div class="mi-form-item ft-14">
+                            免费领取
+                            <div class="mi-form-explain"></div>
+                        </div>
                     </div>
-                    <div class="config-box config-vip-set"></div>
-                    <div class="config-box config-write-off"></div>
+                    <div class="config-box config-vip-set">
+                        <h3 class="p-title-area">特权设置</h3>
+                        <div class="mi-form-item ft-14">
+                            通用特权
+                        </div>
+                        <div class="mi-form-item fn-mt15">
+                            <label class="mi-label ft-12">特权名称</label>
+                            <input value="" data-default="会员卡名称" class="mi-input" placeholder="最多9个汉字" type="text">
+                            <div class="mi-form-explain"></div>
+                        </div>
+                        <div class="mi-form-item fn-mt15">
+                            <label class="mi-label ft-12">特权详情</label>
+                            <textarea class="mi-textarea ft-12" rows="5" cols="10"></textarea>
+                            <div class="mi-form-explain"></div>
+                        </div>
+                        <div class="mi-form-item">
+                            <input type="button" class="common-btn red-btn small-btn right-dom" value="确 定"/>
+                            <div class="mi-form-explain clear"></div>
+                            <hr/>
+                        </div>
+                        <div class="mi-form-item ft-14">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="vip-set-type" value="">
+                                    设置城市特权
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="vip-set-type" value="">
+                                    设置门店特权
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="vip-set-type" value="" checked>
+                                    不设置城市特权及门店特权
+                                </label>
+                            </div>
+                            <div class="mi-form-explain"></div>
+                        </div>
+                    </div>
+                    <div class="config-box config-write-off">
+                        <div class="mi-form-item ft-14">
+                            核销方式
+                            <div class="mi-form-explain"></div>
+                        </div>
+                        <div class="mi-form-item">
+                            <label class="radio-inline write-off-inline">
+                                <input type="radio" name="background-set-options" value="">
+                                扫描动态二维码
+                            </label>
+                            <label class="radio-inline write-off-inline">
+                                <input type="radio" name="background-set-options" value="">
+                                扫描动态条形码
+                            </label>
+                            <label class="radio-inline write-off-inline">
+                                <input type="radio" name="background-set-options" value="">
+                                接收声波
+                            </label>
+                            <label class="radio-inline write-off-inline">
+                                <input type="radio" name="background-set-options" value="">
+                                输入会员卡卡号
+                            </label>
+                            <label class="radio-inline write-off-inline">
+                                <input type="radio" name="background-set-options" value="">
+                                扫描静态二维码
+                            </label>
+                            <label class="radio-inline write-off-inline">
+                                <input type="radio" name="background-set-options" value="">
+                                扫描静态条形码
+                            </label>
+                        </div>
+                    </div>
                     <div class="config-box config-other-info"></div>
                     <div class="config-save"></div>
                 </div>
