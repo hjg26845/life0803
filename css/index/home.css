@@ -22,8 +22,8 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 .mi-form-item .mi-label{width: 100%;font-weight: 400;padding-bottom: 15px;margin-bottom: 0;}
 .mi-form-item .mi-input{width: 100%;border: 1px solid #CCC;color: #4d4d4d;padding: 6px 4px;vertical-align: top;}
 .mi-form-item .mi-form-explain{width: 100%;color: #F33;height: 27px;padding-top: 3px;font-size: 12px;}
-.mi-form-item .background-set .radio-inline{margin-left: 10px;}
-.mi-form-item .background-set .radio-inline.fn-mt10{margin-top: 10px;}
+.mi-form-item .radio-inline{margin-left: 10px;}
+.mi-form-item .radio-inline.fn-mt10{margin-top: 10px;}
 .mi-form-item .background-set span{display: inline-block;width: 28px;height: 28px;}
 .mi-form-item .mi-textarea {overflow: auto;resize: none;}
 
@@ -62,4 +62,4 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 #card-main .mi-form-item .right-dom {float: right;}
 #card-main .mi-form-item hr {margin-top: 27px;border-color: #CCC;}
 #card-main .mi-form-item .radio {margin-top: 20px;}
-#card-main .config-write-off .write-off-inline {}
+#card-main .config-write-off .write-off-inline {width:157px;}
