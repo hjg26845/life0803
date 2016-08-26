@@ -5,6 +5,7 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 .font-center{text-align: center;}
 .fn-mb5{margin-bottom: 5px;}
 .fn-mb10{margin-bottom: 10px;}
+.fn-mb20{margin-bottom: 20px;}
 .fn-mt10{margin-top: 10px;}
 .fn-mt15{margin-top: 15px;}
 .fn-mt20{margin-top: 20px;}
@@ -55,7 +56,16 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 #card-main .card-left .card-config .config-title{height: 43px; border-bottom: 1px solid #F4F4F4;font-size: 14px;font-weight: bold;padding-left: 30px;color: #666;margin-bottom: 20px;}
 #card-main .card-left .card-config .config-content{width: 100%;padding-left: 30px; padding-right: 30px;}
 #card-main .card-left .card-config .config-content .config-content-left{float: left;width: 257px;padding-left: 56px;}
-#card-main .card-left .card-config .config-content .phone{width: 257px;background: url("../../images/card/1b044jqszN.png") no-repeat;height: 543px;}
+#card-main .card-left .card-config .config-content .phone{width: 257px;height: 543px;}
+#card-main .pic {width: 100%;background: url("../../images/card/1b044jqszN.png") no-repeat;height: 100%;position: relative;}
+#card-main .pic .status,
+#card-main .simulator-content,
+#card-main .simulator-content .top-card .top-background,
+#card-main .simulator-box {background-image: url(https://i.alipayobjects.com/e/201312/1hGbCNh3vR.png);background-repeat: no-repeat;}
+#card-main .pic .status{display: block;position: absolute;top: 94px;left: 21px;width: 218px;height: 31px;background-position: 0 -195px;}
+
+
+
 #card-main .card-left .card-config .config-content .config-content-right{float: right;width: 400px;}
 #card-main .config-box{border-radius:8px;-webkit-box-shadow:0 0 3px rgba(0,0,0,.2);-moz-box-shadow:0 0 3px rgba(0,0,0,.2);box-shadow:0 0 3px rgba(0,0,0,.2);border:1px solid #DEDEDE;margin-bottom:15px;}
 #card-main .mi-form-item .mi-textarea {width: 100%;}

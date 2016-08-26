@@ -21,7 +21,9 @@
             <div class="config-title">会员卡设置</div>
             <div class="config-content">
                 <div class="config-content-left">
-                    <div class="phone"></div>
+                    <div class="phone">
+                        <div class="pic"></div>
+                    </div>
                 </div>
                 <div class="config-content-right">
                     <div class="config-box config-info">
@@ -139,34 +141,87 @@
                     <div class="config-box config-write-off">
                         <h3 class="p-title-area">核销方式</h3>
                         <div class="mi-form-item">
-                            <label class="radio-inline write-off-inline">
+                            <label class="radio-inline write-off-inline ft-14 fn-mb20">
                                 <input type="radio" name="background-set-options" value="">
                                 扫描动态二维码
                             </label>
-                            <label class="radio-inline write-off-inline">
+                            <label class="radio-inline write-off-inline ft-14 fn-mb20">
                                 <input type="radio" name="background-set-options" value="">
                                 扫描动态条形码
                             </label>
-                            <label class="radio-inline write-off-inline">
+                            <label class="radio-inline write-off-inline ft-14 fn-mb20">
                                 <input type="radio" name="background-set-options" value="">
                                 接收声波
                             </label>
-                            <label class="radio-inline write-off-inline">
+                            <label class="radio-inline write-off-inline ft-14 fn-mb20">
                                 <input type="radio" name="background-set-options" value="">
                                 输入会员卡卡号
                             </label>
-                            <label class="radio-inline write-off-inline">
+                            <label class="radio-inline write-off-inline ft-14 fn-mb20">
                                 <input type="radio" name="background-set-options" value="">
                                 扫描静态二维码
                             </label>
-                            <label class="radio-inline write-off-inline">
+                            <label class="radio-inline write-off-inline ft-14 fn-mb20">
                                 <input type="radio" name="background-set-options" value="">
                                 扫描静态条形码
                             </label>
+                            <div class="mi-form-explain"></div>
                         </div>
                     </div>
-                    <div class="config-box config-other-info"></div>
-                    <div class="config-save"></div>
+                    <div class="config-box config-other-info">
+                        <h3 class="p-title-area">其他信息</h3>
+                        <div class="mi-form-item ft-14">
+                            会员卡说明
+                        </div>
+                        <div class="mi-form-item fn-mt15">
+                            <label class="mi-label ft-12">商家简介(选填)</label>
+                            <textarea class="mi-textarea ft-12" rows="5" cols="10" placeholder="最多输入500个字"></textarea>
+                            <div class="mi-form-explain"></div>
+                        </div>
+                        <div class="mi-form-item fn-mt15">
+                            <label class="mi-label ft-12">使用说明(选填)</label>
+                            <textarea class="mi-textarea ft-12" rows="5" cols="10" placeholder="最多输入500个字"></textarea>
+                            <div class="mi-form-explain"></div>
+                        </div>
+                        <div class="mi-form-item fn-mt15">
+                            <label class="mi-label ft-12">会员卡特色(显示在领卡页)</label>
+                            <textarea class="mi-textarea ft-12" rows="5" cols="10" placeholder="描述卡的优势和卖点，最多输入50个字"></textarea>
+                            <div class="mi-form-explain"></div>
+                        </div>
+                        <div class="mi-form-item fn-mt15">
+                            <label class="mi-label ft-12">有效期</label>
+                            <select class="mi-input">
+                                <option>1年</option>
+                                <option>2年</option>
+                                <option>3年</option>
+                                <option>4年</option>
+                                <option>5年</option>
+                            </select>
+                            <div class="mi-form-explain"></div>
+                        </div>
+                        <div class="mi-form-item ft-14">
+                            <div class="checkbox fn-mb20">
+                                <label>
+                                    <input type="checkbox" name="" value="">
+                                    展示全部门店信息(包括各门店联系电话及详细地址)
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="" value="">
+                                    展示统一服务电话
+                                </label>
+                            </div>
+                            <div class="mi-form-explain"></div>
+                        </div>
+                    </div>
+                    <div class="config-save">
+                        <span style="color: #0199FE;" class="glyphicon glyphicon-info-sign ft-14" aria-hidden="true"></span>  系统会自动生成会员卡卡号
+                        <div class="mi-form-item">
+                            <input type="button" class="common-btn red-btn right-dom" value="保存并预览"/>
+                            <div class="mi-form-explain clear"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
