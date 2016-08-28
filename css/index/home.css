@@ -3,6 +3,8 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 .clear {clear: both;}
 .portal-shadow {-moz-box-shadow:0px 0px 6px rgba(0,0,0,0.35); -webkit-box-shadow:0px 0px 6px rgba(0,0,0,0.35); box-shadow:0px 0px 6px rgba(0,0,0,0.35);}
 .font-center{text-align: center;}
+ul {list-style: none;padding: 0;}
+.fn-hide {display: none;}
 .fn-mb5{margin-bottom: 5px;}
 .fn-mb10{margin-bottom: 10px;}
 .fn-mb20{margin-bottom: 20px;}
@@ -56,14 +58,32 @@ body { font:12px/1.5 tahoma,arial,Hiragino Sans GB,'宋体';background-color: #F
 #card-main .card-left .card-config .config-title{height: 43px; border-bottom: 1px solid #F4F4F4;font-size: 14px;font-weight: bold;padding-left: 30px;color: #666;margin-bottom: 20px;}
 #card-main .card-left .card-config .config-content{width: 100%;padding-left: 30px; padding-right: 30px;}
 #card-main .card-left .card-config .config-content .config-content-left{float: left;width: 257px;padding-left: 56px;}
-#card-main .card-left .card-config .config-content .phone{width: 257px;height: 543px;}
+#card-main .card-left .card-config .config-content .phone{width: 257px;height: 543px;position: relative;}
+#card-main .mi-bizcrm-simulator {position: relative;height: 543px;}
 #card-main .pic {width: 100%;background: url("../../images/card/1b044jqszN.png") no-repeat;height: 100%;position: relative;}
 #card-main .pic .status,
 #card-main .simulator-content,
 #card-main .simulator-content .top-card .top-background,
 #card-main .simulator-box {background-image: url(https://i.alipayobjects.com/e/201312/1hGbCNh3vR.png);background-repeat: no-repeat;}
-#card-main .pic .status{display: block;position: absolute;top: 94px;left: 21px;width: 218px;height: 31px;background-position: 0 -195px;}
+#card-main .mi-bizcrm-simulator .simulator-content .top-card .card-display .card-type-text,
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li em,
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list .down-item em {background-image: url(https://i.alipayobjects.com/e/201312/1bsCqPikXF.png);background-repeat: no-repeat;position: absolute;}
+#card-main .mi-bizcrm-simulator .simulator-content .top-card .card-attention {width: 130px;height: 33px;margin: 8px auto 0;background: url(https://i.alipayobjects.com/e/201402/29Ro15MN5h.png) 0 0 no-repeat;}
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list {margin-bottom: 10px;background-color: #fff;border-top: 1px solid #B7B7BA;border-bottom: 1px solid #B7B7BA;}
+#card-main .mi-bizcrm-simulator .simulator-content .no-border {border-top: none;border-bottom: none;}
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li {height: 32px;line-height: 32px;margin-left: 13px;position: relative;overflow: hidden;}
 
+#card-main .pic .status{display: block;position: absolute;top: 94px;left: 21px;width: 218px;height: 31px;background-position: 0 -195px;}
+#card-main .mi-bizcrm-membercard {position:absolute;top:125px;left:21px;width:218px;height:342px;background:#fff;overflow:hidden;z-index:2;}
+#card-main .mi-bizcrm-simulator .simulator-box {background-position: -219px 0;background-repeat: repeat-y;overflow: scroll;height: 356px;width: 233px;}
+#card-main .mi-bizcrm-simulator .simulator-content {min-height: 342px;background-position: -219px 0;background-repeat: repeat-y;}
+#card-main .mi-bizcrm-simulator .top-card {position: relative;height: 167px;margin-bottom: 12px;}
+#card-main .mi-bizcrm-simulator .top-card .top-background{background-position: 0 -227px;height: 40px;}
+#card-main .mi-bizcrm-simulator .top-card .card-display{position: absolute;top: 10px;left: 16px;}
+#card-main .mi-bizcrm-simulator .top-card .card-display .card-type-text{width: 71px;height: 90px;background-position: 0 -41px;float: left;right: 10px;top: 12px;}
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li .item-label {float: left;}
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li .item-value {color: #38548A;display: block;text-align: right;width: 180px;}
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li em {left: 186px;top: 11px;width: 6px;height: 10px;background-position: 0 -31px;}
 
 
 #card-main .card-left .card-config .config-content .config-content-right{float: right;width: 400px;}
