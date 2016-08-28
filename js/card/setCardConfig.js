@@ -12,3 +12,7 @@ $(function(){
         });
     });
 });
+
+function validateCardConfig(domInfo){
+
+}
