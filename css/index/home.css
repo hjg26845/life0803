@@ -8,6 +8,7 @@ ul {list-style: none;padding: 0;}
 .fn-mb5{margin-bottom: 5px;}
 .fn-mb10{margin-bottom: 10px;}
 .fn-mb20{margin-bottom: 20px;}
+.fn-ml10{margin-left: 10px;}
 .fn-mt10{margin-top: 10px;}
 .fn-mt15{margin-top: 15px;}
 .fn-mt20{margin-top: 20px;}
@@ -71,7 +72,14 @@ ul {list-style: none;padding: 0;}
 #card-main .mi-bizcrm-simulator .simulator-content .top-card .card-attention {width: 130px;height: 33px;margin: 8px auto 0;background: url(https://i.alipayobjects.com/e/201402/29Ro15MN5h.png) 0 0 no-repeat;}
 #card-main .mi-bizcrm-simulator .simulator-content .card-info-list {margin-bottom: 10px;background-color: #fff;border-top: 1px solid #B7B7BA;border-bottom: 1px solid #B7B7BA;}
 #card-main .mi-bizcrm-simulator .simulator-content .no-border {border-top: none;border-bottom: none;}
-#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li {height: 32px;line-height: 32px;margin-left: 13px;position: relative;overflow: hidden;}
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li {height: 32px;line-height: 32px;margin-left: 13px;position: relative;overflow: hidden;border-bottom: 1px solid #B7B7BA;}
+#card-main .mi-bizcrm-simulator .simulator-content .card-info-list li:last-child {border-bottom: none;}
+#card-main .card-info-list .glyphicon{ float: right;}
+#card-main .ready-vip-set .ready-form {border-top: 1px dotted #CCC;border-bottom: 1px dotted #CCC;}
+#card-main #card-vip-form-add {display: none;}
+#card-main #card-vip-form-add .card-vip-form-add-a {display: block;width: 100%;height: 30px;background: url("../../images/card/1cHiavZI57.png") left;cursor: pointer;text-align: center;text-decoration: none;font-weight: bold;margin-top: 20px;}
+#card-main #card-vip-form-add .card-vip-form-add-btn{display: block;width: 99%;height: 30px;background: url("../../images/card/1cHiavZI57.png") right;margin-left: 1%;line-height: 28px;}
+#card-main #card-vip-form .card-config-cancel{display: none;}
 
 #card-main .pic .status{display: block;position: absolute;top: 94px;left: 21px;width: 218px;height: 31px;background-position: 0 -195px;}
 #card-main .pic .status b{width: 100%;height: 100%;display: block;text-align: center;line-height: 28px;color:#FFF;}
@@ -85,7 +93,14 @@ ul {list-style: none;padding: 0;}
 #card-main .mi-bizcrm-simulator .simulator-content .card-info-list li .item-label {float: left;}
 #card-main .mi-bizcrm-simulator .simulator-content .card-info-list li .item-value {color: #38548A;display: block;text-align: right;width: 180px;}
 #card-main .mi-bizcrm-simulator .simulator-content .card-info-list li em {left: 186px;top: 11px;width: 6px;height: 10px;background-position: 0 -31px;}
-
+#card-main #card-form-ready .ready-msg {padding: 5px 0 7px 8px; }
+#card-main #card-form-ready .ready-msg:hover {background-color:#DE5151; }
+#card-main #card-form-ready .ready-msg .title {display: block;font-weight: bold;}
+#card-main #card-form-ready .ready-msg .info {display: block;color: #a6a6a6;}
+#card-main #card-form-ready .ready-msg:hover .title {color:#FFF;}
+#card-main #card-form-ready .ready-msg:hover .info {color:#FFF;}
+#card-main #card-form-ready .ready-msg .glyphicon {float: right;margin: 5px 5px 0 0;display: none;color: #FFF;cursor: pointer;}
+#card-main #card-form-ready .ready-msg:hover .glyphicon{display: inherit;}
 
 #card-main .card-left .card-config .config-content .config-content-right{float: right;width: 400px;}
 #card-main .config-box{border-radius:8px;-webkit-box-shadow:0 0 3px rgba(0,0,0,.2);-moz-box-shadow:0 0 3px rgba(0,0,0,.2);box-shadow:0 0 3px rgba(0,0,0,.2);border:1px solid #DEDEDE;margin-bottom:15px;}

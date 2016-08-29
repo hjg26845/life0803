@@ -129,19 +129,34 @@
                         <div class="mi-form-item ft-14">
                             通用特权
                         </div>
-                        <div class="mi-form-item fn-mt15">
-                            <label class="mi-label ft-12">特权名称</label>
-                            <input data-form-type="card-config" data-default="会员卡名称" class="mi-input" placeholder="最多9个汉字" type="text">
-                            <div class="mi-form-explain"></div>
+                        <div id="card-form-ready">
+
                         </div>
-                        <div class="mi-form-item fn-mt15">
-                            <label class="mi-label ft-12">特权详情</label>
-                            <textarea data-form-type="card-config" class="mi-textarea ft-12" rows="5" cols="10"></textarea>
-                            <div class="mi-form-explain"></div>
+                        <div id="card-vip-form">
+                            <div class="mi-form-item fn-mt15">
+                                <label class="mi-label ft-12">特权名称</label>
+                                <input data-default="会员卡名称" class="mi-input vip-name" placeholder="最多9个汉字" type="text">
+                                <div class="mi-form-explain"></div>
+                            </div>
+                            <div class="mi-form-item fn-mt15">
+                                <label class="mi-label ft-12">特权详情</label>
+                                <textarea class="mi-textarea ft-12 vip-info" rows="5" cols="10"></textarea>
+                                <div class="mi-form-explain"></div>
+                            </div>
+                            <div class="mi-form-item">
+                                <input type="button" class="common-btn write-btn small-btn right-dom fn-ml10 card-config-cancel" value="取 消"/>
+                                <input type="button" data-form-type="card-config" data-function="configVipSet" class="common-btn red-btn small-btn right-dom" value="确 定"/>
+                                <div class="mi-form-explain clear"></div>
+                            </div>
+                        </div>
+                        <div id="card-vip-form-add">
+                            <div class="mi-form-item">
+                                <a class="card-vip-form-add-a">
+                                    <span class="card-vip-form-add-btn">+添加通用特权</span>
+                                </a>
+                            </div>
                         </div>
                         <div class="mi-form-item">
-                            <input type="button" class="common-btn red-btn small-btn right-dom" value="确 定"/>
-                            <div class="mi-form-explain clear"></div>
                             <hr/>
                         </div>
                         <div class="mi-form-item ft-14">
