@@ -11,8 +11,24 @@ $(function(){
             "top": h_ - $(window).scrollTop() < 0 ? h_ : $(window).scrollTop()
         });
     });
+
+    $("[data-form-type='card-config']").each(function(){
+        window[$(this).attr('data-function')]($(this));
+    });
+
 });
 
-function validateCardConfig(domInfo){
+function configCardName(dom){
+    $(dom).on("keyup mouseup",function(){
+        $(".phone .card-name").text($(dom).val());
+    });
+}
 
+function configBackgroundColor(dom){
+    $(dom).on("click",function(){
+        $(".phone .simulator-content").css({
+            "background-color":$(dom).val(),
+            "background-image":"none"
+        });
+    });
 }

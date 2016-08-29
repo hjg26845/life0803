@@ -24,7 +24,9 @@
                     <div class="phone">
                         <div class="mi-bizcrm-simulator">
                             <div class="pic">
-                                <span class="status"></span>
+                                <span class="status">
+                                    <b class="card-name"></b>
+                                </span>
                             </div>
                             <div class="mi-bizcrm-membercard">
                                 <div class="simulator-box">
@@ -56,51 +58,51 @@
                         <h3 class="p-title-area">卡片信息</h3>
                         <div class="mi-form-item">
                             <label class="mi-label ft-14">会员卡名称</label>
-                            <input id="cardName" value="" data-default="会员卡名称" class="mi-input" placeholder="建议填写品牌名，最多10个汉字。" maxlength="20" type="text">
+                            <input id="cardName" data-form-type="card-config" data-function="configCardName" value="" data-default="会员卡名称" class="mi-input" placeholder="建议填写品牌名，最多10个汉字。" maxlength="20" type="text">
                             <div class="mi-form-explain"></div>
                         </div>
                         <div class="mi-form-item">
                             <label class="mi-label ft-14">背景色</label>
                             <div class="background-set">
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="#ef4b40">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#ef4b40">
                                     <span style="background-color:#ef4b40;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="#fb6650">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#fb6650">
                                     <span style="background-color:#fb6650;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="#e84d94">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#e84d94">
                                     <span style="background-color:#e84d94;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="#9042e8">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#9042e8">
                                     <span style="background-color:#9042e8;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="background-set-options" value="#19a8cb">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#19a8cb">
                                     <span style="background-color:#19a8cb;">&nbsp;</span>
                                 </label>
 
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="#3983da">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#3983da">
                                     <span style="background-color:#3983da;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="#24bf66">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#24bf66">
                                     <span style="background-color:#24bf66;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="#72b414">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#72b414">
                                     <span style="background-color:#72b414;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="#f7a11d">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#f7a11d">
                                     <span style="background-color:#f7a11d;">&nbsp;</span>
                                 </label>
                                 <label class="radio-inline fn-mt10">
-                                    <input type="radio" name="background-set-options" value="#3e4349">
+                                    <input type="radio" data-form-type="card-config" data-function="configBackgroundColor" name="background-set-options" value="#3e4349">
                                     <span style="background-color:#3e4349;">&nbsp;</span>
                                 </label>
                             </div>
@@ -129,12 +131,12 @@
                         </div>
                         <div class="mi-form-item fn-mt15">
                             <label class="mi-label ft-12">特权名称</label>
-                            <input value="" data-default="会员卡名称" class="mi-input" placeholder="最多9个汉字" type="text">
+                            <input data-form-type="card-config" data-default="会员卡名称" class="mi-input" placeholder="最多9个汉字" type="text">
                             <div class="mi-form-explain"></div>
                         </div>
                         <div class="mi-form-item fn-mt15">
                             <label class="mi-label ft-12">特权详情</label>
-                            <textarea class="mi-textarea ft-12" rows="5" cols="10"></textarea>
+                            <textarea data-form-type="card-config" class="mi-textarea ft-12" rows="5" cols="10"></textarea>
                             <div class="mi-form-explain"></div>
                         </div>
                         <div class="mi-form-item">
@@ -145,19 +147,19 @@
                         <div class="mi-form-item ft-14">
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="vip-set-type" value="">
+                                    <input data-form-type="card-config" type="radio" name="vip-set-type" value="">
                                     设置城市特权
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="vip-set-type" value="">
+                                    <input data-form-type="card-config" type="radio" name="vip-set-type" value="">
                                     设置门店特权
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="vip-set-type" value="" checked>
+                                    <input data-form-type="card-config" type="radio" name="vip-set-type" value="" checked>
                                     不设置城市特权及门店特权
                                 </label>
                             </div>
@@ -168,27 +170,27 @@
                         <h3 class="p-title-area">核销方式</h3>
                         <div class="mi-form-item">
                             <label class="radio-inline write-off-inline ft-14 fn-mb20">
-                                <input type="radio" name="background-set-options" value="">
+                                <input type="radio" data-form-type="card-config" name="background-set-options" value="">
                                 扫描动态二维码
                             </label>
                             <label class="radio-inline write-off-inline ft-14 fn-mb20">
-                                <input type="radio" name="background-set-options" value="">
+                                <input type="radio" data-form-type="card-config" name="background-set-options" value="">
                                 扫描动态条形码
                             </label>
                             <label class="radio-inline write-off-inline ft-14 fn-mb20">
-                                <input type="radio" name="background-set-options" value="">
+                                <input type="radio" data-form-type="card-config" name="background-set-options" value="">
                                 接收声波
                             </label>
                             <label class="radio-inline write-off-inline ft-14 fn-mb20">
-                                <input type="radio" name="background-set-options" value="">
+                                <input type="radio" data-form-type="card-config" name="background-set-options" value="">
                                 输入会员卡卡号
                             </label>
                             <label class="radio-inline write-off-inline ft-14 fn-mb20">
-                                <input type="radio" name="background-set-options" value="">
+                                <input type="radio" data-form-type="card-config" name="background-set-options" value="">
                                 扫描静态二维码
                             </label>
                             <label class="radio-inline write-off-inline ft-14 fn-mb20">
-                                <input type="radio" name="background-set-options" value="">
+                                <input type="radio" data-form-type="card-config" name="background-set-options" value="">
                                 扫描静态条形码
                             </label>
                             <div class="mi-form-explain"></div>
@@ -201,22 +203,22 @@
                         </div>
                         <div class="mi-form-item fn-mt15">
                             <label class="mi-label ft-12">商家简介(选填)</label>
-                            <textarea class="mi-textarea ft-12" rows="5" cols="10" placeholder="最多输入500个字"></textarea>
+                            <textarea data-form-type="card-config" class="mi-textarea ft-12" rows="5" cols="10" placeholder="最多输入500个字"></textarea>
                             <div class="mi-form-explain"></div>
                         </div>
                         <div class="mi-form-item fn-mt15">
                             <label class="mi-label ft-12">使用说明(选填)</label>
-                            <textarea class="mi-textarea ft-12" rows="5" cols="10" placeholder="最多输入500个字"></textarea>
+                            <textarea data-form-type="card-config" class="mi-textarea ft-12" rows="5" cols="10" placeholder="最多输入500个字"></textarea>
                             <div class="mi-form-explain"></div>
                         </div>
                         <div class="mi-form-item fn-mt15">
                             <label class="mi-label ft-12">会员卡特色(显示在领卡页)</label>
-                            <textarea class="mi-textarea ft-12" rows="5" cols="10" placeholder="描述卡的优势和卖点，最多输入50个字"></textarea>
+                            <textarea data-form-type="card-config" class="mi-textarea ft-12" rows="5" cols="10" placeholder="描述卡的优势和卖点，最多输入50个字"></textarea>
                             <div class="mi-form-explain"></div>
                         </div>
                         <div class="mi-form-item fn-mt15">
                             <label class="mi-label ft-12">有效期</label>
-                            <select class="mi-input">
+                            <select class="mi-input" data-form-type="card-config">
                                 <option>1年</option>
                                 <option>2年</option>
                                 <option>3年</option>
@@ -228,13 +230,13 @@
                         <div class="mi-form-item ft-14">
                             <div class="checkbox fn-mb20">
                                 <label>
-                                    <input type="checkbox" name="" value="">
+                                    <input type="checkbox" data-form-type="card-config" name="" value="">
                                     展示全部门店信息(包括各门店联系电话及详细地址)
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="" value="">
+                                    <input type="checkbox" data-form-type="card-config" name="" value="">
                                     展示统一服务电话
                                 </label>
                             </div>
