@@ -1,0 +1,27 @@
+
+#main {background-color: #F7A11D;position: relative;margin-bottom: 50px;}
+#main-inner {width: 100%;}
+#main-footer {width: 100%;height: 50px;border-top: 1px solid #5e5e5e;position: fixed;bottom: 0;}
+
+
+#main-inner .top-card {position: relative;margin-bottom: 12px;background:url("../../images/card/top-card.png") repeat-x;}
+
+#main-inner .top-card .card-display{text-align: center;width: 100%;}
+#main-inner .top-card .card-display .info{position: relative;min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto;}
+#main-inner .top-card .card-display img.bg{min-width: 260px;max-width: 500px;width:100%;margin-top: 20px;}
+#main-inner .top-card .card-display .card-person-info{min-width: 260px;max-width: 500px;width: 100%;position: absolute;height: 46px;top: 40px;margin: 0 auto;padding-left: 15px;text-align: left;}
+#main-inner .top-card .card-display .card-person-info .user-info img{width: 46px;height: 46px;}
+#main-inner .top-card .card-display .card-ewm {text-align: right;position: absolute;bottom: 10px;right:10px;}
+#main-inner .top-card .card-display .card-ewm img{width: 160px;height: 66px;}
+
+#main-inner .card-lattice {min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto;}
+#main-inner .card-lattice .card-item{height: 80px;padding: 0;}
+
+
+
+
+
+
+
+
+
