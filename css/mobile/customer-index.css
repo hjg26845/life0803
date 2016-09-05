@@ -1,10 +1,10 @@
 
-#main {background-color: #F7A11D;position: relative;margin-bottom: 50px;}
+#main {background-color: #F7A11D;position: relative;}
 #main-inner {width: 100%;}
 #main-footer {width: 100%;height: 50px;border-top: 1px solid #5e5e5e;position: fixed;bottom: 0;}
 
 
-#main-inner .top-card {position: relative;margin-bottom: 12px;background:url("../../images/card/top-card.png") repeat-x;}
+#main-inner .top-card {position: relative;background:url("../../images/card/top-card.png") repeat-x;}
 
 #main-inner .top-card .card-display{text-align: center;width: 100%;}
 #main-inner .top-card .card-display .info{position: relative;min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto;}
@@ -15,8 +15,10 @@
 #main-inner .top-card .card-display .card-ewm img{width: 160px;height: 66px;}
 
 #main-inner .card-lattice {min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto;}
-#main-inner .card-lattice .card-item{height: 80px;padding: 0;}
-
+#main-inner .card-lattice .card-item{height: 80px;padding: 0;height: 33.3333%;vertical-align: middle;display: table-cell;}
+#main-inner .card-lattice .card-item .item-inner{width: 100%;height: 100%;text-align: center;}
+#main-inner .card-lattice .card-item .item-main {width: 55px;height: 80px;margin: 0 auto;vertical-align: middle;}
+#main-inner .card-lattice .card-item .item-main span{font-size: 13px;display: block;height: 32px;line-height: 32px;}
 
 
 
