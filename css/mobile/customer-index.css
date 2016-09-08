@@ -1,30 +1,66 @@
+.clear {clear: both;line-height: 0;}
+ul {margin: 0;padding: 0; }
+li {list-style: none;}
+.text-overflow {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.height10 {height: 10px;}
 
-#main {background-color: #F7A11D;position: relative;}
+#main {position: relative;}
+#main.background {background-color: #F7A11D;}
 #main-inner {width: 100%;}
-#main-footer {width: 100%;height: 50px;border-top: 1px solid #5e5e5e;position: fixed;bottom: 0;}
+#main-footer {width: 100%;height: 50px;border-top: 1px solid #5e5e5e;}
+#main-footer .item-3{width: 33.3333%;float: left;text-align: center;padding-top: 3px;}
+#main-footer .item-4{width: 25%;float: left;text-align: center;padding-top: 3px;}
+#main-footer [class^=item] span {display: block;font-size: 12px;line-height: 19px;}
+#main-footer [class^=item] {position: relative;}
+#main-footer [class^=item] i {color: #FF0000;position: absolute;top: 3px; right: 3px;}
 
 
 #main-inner .top-card {position: relative;background:url("../../images/card/top-card.png") repeat-x;}
 
 #main-inner .top-card .card-display{text-align: center;width: 100%;}
-#main-inner .top-card .card-display .info{position: relative;min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto;}
-#main-inner .top-card .card-display img.bg{min-width: 260px;max-width: 500px;width:100%;margin-top: 20px;}
+#main-inner .top-card .card-display .info{position: relative;min-width: 240px;max-width: 500px;width: 70%;margin: 0 auto;}
+#main-inner .top-card .card-display img.bg{min-width: 240px;max-width: 500px;width:100%;margin-top: 20px;}
 #main-inner .top-card .card-display .card-person-info{min-width: 260px;max-width: 500px;width: 100%;position: absolute;height: 46px;top: 40px;margin: 0 auto;padding-left: 15px;text-align: left;}
 #main-inner .top-card .card-display .card-person-info .user-info img{width: 46px;height: 46px;}
 #main-inner .top-card .card-display .card-ewm {text-align: right;position: absolute;bottom: 10px;right:10px;}
 #main-inner .top-card .card-display .card-ewm img{width: 160px;height: 66px;}
 
+#main-inner .three-lattice {height: 50px;min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto;}
+#main-inner .three-lattice .card-item {height: 50px;padding: 5px;position: relative;}
+#main-inner .three-lattice .card-item span{height: 50%;text-align: center;line-height: 20px;display: block;font-size: 13px;color: #FFF;}
+#main-inner .three-lattice .card-item i {color: #FF0000;position: absolute;top: 3px; right: 3px;}
+
+
+#main-inner hr {min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto 5px;}
+
 #main-inner .card-lattice {min-width: 260px;max-width: 500px;width: 70%;margin: 0 auto;}
 #main-inner .card-lattice .card-item{height: 80px;padding: 0;height: 33.3333%;vertical-align: middle;display: table-cell;}
 #main-inner .card-lattice .card-item .item-inner{width: 100%;height: 100%;text-align: center;}
-#main-inner .card-lattice .card-item .item-main {width: 55px;height: 80px;margin: 0 auto;vertical-align: middle;}
-#main-inner .card-lattice .card-item .item-main span{font-size: 13px;display: block;height: 32px;line-height: 32px;}
+#main-inner .card-lattice .card-item .item-main {width: 55px;height: 80px;display: inline-block;}
+#main-inner .card-lattice .card-item .item-main img{height: 35px;}
+#main-inner .card-lattice .card-item .item-main span{font-size: 13px;display: block;height: 32px;line-height: 32px;color:#FFF;}
 
 
 
-#main-cart-left {width: 25%;}
-#main-cart-right {width: 75%;}
-#main-cart {width: 100%;}
+#main-cart-left {width: 25%;background-color: #E2E3DE;overflow-y: auto;height: 100%;float: left;}
+#main-cart-left ul {padding: 0;}
+#main-cart-left ul li{height: 32px;line-height: 30px;border-radius: 5px;text-align: center;margin: 5px 5px 0 5px;}
+#main-cart-left ul li.active{border:1px solid #BABABA;background-color: #FFF;}
+#main-cart-right {width: 75%;float: right;padding: 0 10px;overflow-y: auto;height: 100%;}
+#main-cart {width: 100%;padding: 0 10px;overflow-y: auto;height: 100%;}
+body [id^=main-cart] .cart-list {width: 100%;height: 80px;position: relative;}
+body [id^=main-cart] .cart-list .list-left{width: 80px;height: 100%;position: absolute;top: 0;left: 0;}
+body [id^=main-cart] .cart-list .list-left img{width: 100%;height: 100%;}
+body [id^=main-cart] .cart-list .list-right{width: 100%;height: 100%;float:right;padding-left: 85px;}
+body [id^=main-cart] .cart-list .list-right div {height: 33.3333%;}
+body [id^=main-cart] .cart-list .list-right .top {position: relative;}
+body [id^=main-cart] .cart-list .list-right .top .title{width: 100%;height: 100%; padding-right: 62px;position: absolute;top: 0;left: 0;}
+body [id^=main-cart] .cart-list .list-right .top .collection{width: 62px;height: 100%;text-align: center;float: right;color:#c9302c;}
+body [id^=main-cart] .cart-list .list-right .bottom {text-align: right;}
+body [id^=main-cart] .cart-list .list-right .bottom span{color:blue;font-size: 15px;}
+body [id^=main-cart] hr {margin-top: 10px;margin-bottom: 10px;}
+
+
 
 
 
